@@ -1,0 +1,24 @@
+.shows-center {
+  padding: 2rem 0;
+  width: $smallWidth;
+  margin: 0 auto;
+  max-width: $fullWidth;
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .shows-center {
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .shows-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

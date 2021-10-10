@@ -1,0 +1,33 @@
+.show-container {
+  background: $mainColor;
+  max-width: 22rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: $lightShadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: $mainBorderRadius;
+  img {
+    height: 20rem;
+    object-fit: cover;
+    border-radius: $mainBorderRadius;
+  }
+}
+
+.show-about {
+  margin-top: 1rem;
+}
+
+.btn-add-remove {
+  i {
+    transform: scale(1.6);
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .show-container {
+    max-width: 16.5rem;
+  }
+}

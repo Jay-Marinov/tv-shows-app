@@ -1,0 +1,32 @@
+.search {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  padding-bottom: 0;
+}
+
+.search-form {
+  width: $smallWidth;
+  margin: 0 auto;
+  max-width: $maxWidth;
+  background: $mainColor;
+  padding: 2rem 2.5rem;
+  text-transform: capitalize;
+  border-radius: $mainBorderRadius;
+  box-shadow: $lightShadow;
+  label {
+    display: block;
+    margin-bottom: 1.25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    text-align: center;
+  }
+  input {
+    width: 100%;
+    border: none;
+    border-color: transparent;
+    border-radius: $mainBorderRadius;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
